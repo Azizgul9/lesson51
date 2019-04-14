@@ -1,0 +1,19 @@
+.film-cards{
+    margin: 10px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    color: crimson;
+    font-weight: bolder;
+    vertical-align: top;
+}
+h2{
+    color: cadetblue;
+    background-color: coral;
+}
+p{
+    color: crimson;
+    font-weight: bolder;
+    background-color: coral;
+}

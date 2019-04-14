@@ -1,0 +1,16 @@
+.Sidebar_list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.Sidebar_item{
+    padding: 20px;
+}
+.Sidebar_item:hover{
+    background: crimson;
+}
+.Sidebar_link,.Sidebar_link:hover{
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: bolder;
+}
