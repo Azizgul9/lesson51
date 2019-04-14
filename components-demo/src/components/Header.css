@@ -38,5 +38,6 @@
 }
 .nav__link:hover{
     color: crimson;
+    font-weight: bold;
     text-decoration: none;
 }
