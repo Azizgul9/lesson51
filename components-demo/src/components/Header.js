@@ -4,9 +4,9 @@ import './Header.css';
 
 const Header = (props) =>{
     const pages=['Home','Movies','TV-shows','Cartoons'];
-    const navLinks=pages.map((page)=>{
+    const navLinks=pages.map((page,index)=>{
         return(
-            <ul key={page} className={"nav__list"}>
+            <ul key={index} className={"nav__list"}>
                 <li className={"nav__item"}>
                     <a  href={'/'+page} className={"nav__link"}>{page}</a>
                 </li>
